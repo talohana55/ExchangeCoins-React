@@ -1,0 +1,64 @@
+.coinvalue-container {
+  width: 20rem;
+  background-color: rgb(204, 202, 202);
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+.h2 {
+  width: 100%;
+  text-align: center;
+}
+.table-form {
+  width: 100%;
+  table-layout: fixed;
+  overflow-wrap: break-word;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: 20px;
+}
+th,
+td {
+  padding: 5px;
+  text-align: center;
+}
+.update-div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 25px 0;
+}
+.type-span {
+  font-weight: 700;
+}
+.value-span {
+  font-weight: 700;
+}
+.update-back-div {
+  width: 100%;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem;
+  
+}
+.back-update-btn{
+  border-radius: 7px;
+  color: white;
+  font-size: 0.8rem;
+  background-color: rgb(33, 145, 236);
+  margin: 5px auto;
+  width: 5rem;
+  height: 2.8rem;
+  border: 1.5px solig black;
+  font-weight: 700;
+  
+}

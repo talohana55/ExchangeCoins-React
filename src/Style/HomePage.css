@@ -1,0 +1,133 @@
+.homepage-container {
+  width: 20rem;
+  background-color: rgb(204, 202, 202);
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+.from-span {
+  width: 6rem;
+  font-weight: 700;
+}
+.to-span {
+  width: 6rem;
+  font-weight: 700;
+}
+.select-tag {
+  width: 5rem;
+  font-weight: 700;
+}
+.option {
+  
+  font-weight: 700;
+}
+.option-types{
+  font-weight: 700;
+}
+.inputs-coin-types {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 15px  0;
+}
+.amount-div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 10px 0;
+}
+.amount-span {
+  width: 6rem;
+  font-weight: 700;
+}
+.amount-to-convert {
+  width: 5rem;
+  font-weight: 700;
+}
+.start {
+  width: 100%;
+  text-align: right;
+}
+.start-btn {
+  border-radius: 7px;
+  color: black;
+  font-size: 1rem;
+  background-color: rgb(124, 115, 115);
+  margin: 5px auto;
+  width: 5rem;
+  height: 1.5rem;
+  border: 1.5px solig black;
+}
+.link-div {
+  width: 100%;
+  margin: 1.5rem auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.link-btn {
+  border-radius: 7px;
+  color: black;
+  font-size: 0.8rem;
+  background-color: rgb(33, 145, 236);
+  margin: 5px auto;
+  width: 5rem;
+  height: 3rem;
+  border: 1.5px solig black;
+  font-weight: 700;
+}
+.facebook-btn{
+    border-radius: 7px;
+  color: white;
+  font-weight: 400;
+  font-size: 0.8rem;
+  background-color: rgb(33, 145, 236);
+  margin: 5px auto;
+  width: 5rem;
+  height: 2.8rem;
+  border: 1.5px solig black;
+}
+.converts-list-div{
+  width: 115%;
+  margin: 3px 0;
+  
+}
+.converts{
+  width: 100%;  
+  border: 1px solid black;
+  border-radius: 30px;
+   display: flex;
+   background-color: beige;  
+  justify-content: center;
+  
+  margin: 5px 0;
+}
+.index{
+  font-weight: 700;
+  margin: 13px;
+}
+.from-to{
+font-weight: 700;
+  margin: 13px;
+}
+.amount-to-amount{
+font-weight: 700;
+  margin: 13px;
+}
+.cancel-btn{
+
+outline: none;
+font-size: 0.8rem;
+  background-color: rgb(33, 145, 236);
+  margin: 30px 10px;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 80px;
+  font-weight: 700;
+  font-size: 40px;
+  color: red;
+}
